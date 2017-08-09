@@ -1,0 +1,64 @@
+body {
+	color: #30373B;
+	font-family: 'Arial', sans-serif;
+}
+
+.hgroup__greenunderline {
+	background-color: #7AB55C;
+	display: block;
+	height: 7px;
+	margin: 0 auto;
+	width: 30px;
+}
+
+.hgroup {
+	padding-top: 50px;
+}
+
+.form {
+	margin: 20px 20% 5px;
+}
+
+.form__label {
+	display: block;
+	text-align: left;
+}
+
+.form__input {
+	border: 1px solid #A7A7A7;
+	padding: 10px;
+	width: 79%;
+}
+
+.form__input::placeholder {
+	font-size: 16px;
+}
+
+.form__submit {
+	background-color: #7AB55C;
+	border: none;
+	color: #FFF;
+	font-size: 16px;
+	height: 41px;
+	width: 20%;
+}
+
+.hgroup__title {
+	font-size: 32px;
+}
+
+.hgroup__subtitle {
+	font-size: 20px;
+}
+
+.response-container {
+	margin-left: 20%;
+}
+
+.container-success {
+	color: green;
+}
+
+.container-error {
+	color: red;
+}
